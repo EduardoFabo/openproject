@@ -193,9 +193,9 @@ group :test do
   # Require factory_bot for usage with openproject plugins testing
   # FactoryBot needs to be available when loading app otherwise factory
   # definitions from core are not available in the plugin thus specs break
-  gem 'factory_bot', '~> 4.8'
+  gem 'factory_bot', '~> 5.0'
   # require factory_bot_rails for convenience in core development
-  gem 'factory_bot_rails', '~> 4.8', require: false
+  gem 'factory_bot_rails', '~> 5.0', require: false
 
   # Test prof provides factories from code
   # and other niceties
